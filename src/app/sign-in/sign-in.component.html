@@ -1,0 +1,53 @@
+<div class="container">
+  <i class="angle fa fa-angle-left" aria-hidden="true" routerLink="/"></i>
+  <p class="sign-header">Sign In</p>
+  <div class="form">
+    <form>
+      <input
+        type="email"
+        placeholder="Email"
+        id="email"
+        name="email"
+        required
+      />
+
+      <div class="password-container">
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+        />
+        <span
+          id="pass"
+          class="eye-icon fas fa-eye-slash"
+          (click)="togglePassword('password', 'pass')"
+        ></span>
+      </div>
+
+      <div class="checkbox-container">
+        <!-- Checkbox input -->
+        <input type="checkbox" class="checkbox-input" />
+        <!-- Text next to the checkbox -->
+        <span class="checkbox-label">Remember me?</span>
+      </div>
+
+      <button type="submit" class="btn">Sign In</button>
+      <div class="forgot-pass">
+        <a href="#">Forgot Password?</a>
+      </div>
+      <div class="other-sign-in">
+        <p>Or Sign in with</p>
+        <div class="links">
+          <div class="link-box">
+            <i class="fab fa-facebook-square fa-lg"></i>
+          </div>
+         <div class="link-box">
+          <i class="fa fa-envelope fa-lg"></i>
+         </div>
+        </div>
+        <p class="accountText">Don't have an account? &nbsp; <a href="#">Sgin Up</a></p>
+      </div>
+    </form>
+  </div>
+</div>

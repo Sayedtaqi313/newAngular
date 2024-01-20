@@ -1,0 +1,89 @@
+.container {
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F1F2F6;
+}
+
+.sign-header{
+    font-size: 40px;
+}
+form {
+    background-color: #F1F2F6;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top:-15px;
+    width: 400px
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border:1px solid black;
+  }
+
+  .password-container {
+    position: relative;
+  }
+
+  .eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-90%);
+    cursor: pointer;
+    color:#999;
+    font-weight: 500px !important;
+  }
+
+.btn {
+    width:100%;
+    background-color: #05877D;
+    border:none;
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+}
+.passText {
+    font-size: 12px;
+    margin-top:0;
+}
+i.fa-exclamation {
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 5px;
+    color: #05877D;
+}
+
+.accountText {
+    margin-top:0;
+    text-align: center;
+    font-size: 14px;
+}
+.accountText a {
+    color:#05877D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.angle {
+  color:#05877D;
+  font-size: 30px;
+  font-weight: bold;
+  position: fixed;
+  left:10%;
+  top:20%;
+  cursor: pointer;
+}

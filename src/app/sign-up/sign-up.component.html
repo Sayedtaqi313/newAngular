@@ -1,0 +1,24 @@
+<div class="container">
+  <i class="angle fa fa-angle-left" aria-hidden="true" routerLink="/"></i>
+   <p class="sign-header">Sign Up</p>
+  <div class="form">
+    <form>
+      <input type="text" placeholder="Full name" id="fullName" name="fullName" required />
+
+      <input type="email" placeholder="Email" id="email" name="email" required />
+
+      <div class="password-container">
+        <input type="password" id="password" name="password" placeholder="Password">
+        <span  id="pass" class="eye-icon fas fa-eye" (click)="togglePassword('password','pass')" ></span>  
+      </div>
+    
+      <p class="passText">  <i class="fas fa-exclamation"></i>password must be at least 8 characters.</p>
+      <div class="password-container">
+        <input type="password" placeholder="Re-enter-password" id="reenterPassword"name="reenterPassword" required/>
+        <span id="re-pass" class="eye-icon fas fa-eye" (click)="togglePassword('reenterPassword','re-pass')" ></span>
+      </div>
+        <p class="accountText">Already have an account? &nbsp; <a href="#">Sgin In</a></p>
+      <button type="submit" class="btn">Sign Up</button>
+    </form>
+  </div>
+</div>

@@ -28,6 +28,7 @@
 }
 .btn {
     border-radius: 4px;
+    cursor: pointer;
 }
 .signIn {
     margin-right: 10px;
@@ -35,11 +36,23 @@
     color:black;
     padding:6px 8px;
 }
+.signIn:hover {
+    background-color: #05877D;
+    color:white;
+    border:none;
+    padding:8px 10px;
+}
 .signUp {
     background-color: #05877D;
     color:white;
     border:none;
     padding:8px 10px;
+}
+.signUp:hover {
+    border:2px solid #05877D;
+    color:black;
+    padding:6px 8px;
+    background-color: #F1F2F6;
 }
 .nav-links {
    
@@ -66,12 +79,15 @@ li {
     float: left;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 14px;
     text-decoration: none;
   
 }
 
 li:hover {
-    background-color: #555;
+    background-color:#05877D;
+    color:white;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
